@@ -1,0 +1,38 @@
+/*The body of the webpage*/
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:90vh;
+    font-family: 'Outfit', sans-serif;
+    background: hsl(212, 45%, 89%);
+}
+/*Styling of the container holding the contents*/
+.content-ctn{
+    width:200px;
+    padding:10px;
+    border-radius:10px;
+    background:hsl(0, 0%, 100%);
+    text-align:center;
+}
+/*Image and text styling*/
+figure{
+    margin:0;
+}
+img{
+    width:200px;
+    height:200px;
+    border-radius: 8px;
+}
+p{
+    font-size:15px;
+    color:hsl(218, 44%, 22%);
+    padding:0px 2px 0px 2px;
+    font-weight:bold;
+}
+figcaption{
+    color:hsl(220, 15%, 55%);
+    font-size:12px;  
+    padding-bottom:20px;
+}
+    
